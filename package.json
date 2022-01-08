@@ -1,0 +1,41 @@
+{
+  "name": "wiki-import",
+  "version": "1.0.19",
+  "description": "Parses pages from a Wikipedia XML dump into JSON AST and saves them into a LevelDB database",
+  "main": "wiki-to-leveldb.js",
+  "bin": {
+    "wiki-to-leveldb": "./wiki-to-leveldb.js"
+  },
+  "files": [
+    "progress/LICENSE",
+    "progress/node-progress.js",
+    "LICENSE",
+    "README.md",
+    "wiki-to-leveldb.js"
+  ],
+  "keywords": [
+    "wiki",
+    "wikipedia",
+    "mediawiki",
+    "parser",
+    "import",
+    "leveldb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuryshulaev/wiki-import.git"
+  },
+  "author": "Yury Shulaev <yury.shulaev@gmail.com> (https://github.com/yuryshulaev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuryshulaev/wiki-import/issues"
+  },
+  "homepage": "https://github.com/yuryshulaev/wiki-import",
+  "dependencies": {
+    "leveldown": "^6.1.0",
+    "levelup": "^5.1.1",
+    "unbzip2-stream": "^1.4.3",
+    "wikiparse": "^1.0.20",
+    "xml-stream": "^0.4.5"
+  }
+}
