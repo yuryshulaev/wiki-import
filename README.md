@@ -25,4 +25,4 @@ wiki-to-leveldb simplewiki-20220101-pages-articles.xml simplewiki
 
 The first step is optional: if you want to trade time for storage space, you can pass an **\*.xml.bz2** archive directly to `wiki-to-leveldb` for streaming decompression, that will be about 1.5 times slower — `lbzip2` is highly parallel.
 
-It takes about 4 minutes to import **simplewiki** (0.9 GB dump) on tmpfs on a 4-core CPU.
+It takes about 1 minute to import **simplewiki** (1 GB dump) on tmpfs on a 10-core CPU.
